@@ -9,3 +9,6 @@ body {
   background-size: cover;
   -o-background-size: cover;
 }
+
+input {max-width: 48em};
+
