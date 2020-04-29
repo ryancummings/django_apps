@@ -18,5 +18,6 @@ from django.urls import include, path
 
 urlpatterns = [
     path('sudoku/', include('sudoku.urls')),
+    path('simplesearch/', include('simplesearch.urls')),
     path('admin/', admin.site.urls),
 ]

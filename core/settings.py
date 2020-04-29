@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1', '.ryanwcummings.com']
 
 INSTALLED_APPS = [
     'sudoku',
+    'simplesearch',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
