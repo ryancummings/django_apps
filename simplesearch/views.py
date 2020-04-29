@@ -54,4 +54,4 @@ def index(request):
                'posts': posts,
                'messages': messages}
     
-    return render(request, 'index.html', context)
+    return render(request, 'simplesearch/index.html', context)
